@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <asmv1:assemblyIdentity name="realstate2005.exe" version="1.0.0.7" publicKeyToken="5e12e2069a95eafe" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="realstate2005" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="realstate2005.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet class="System.Security.PermissionSet" version="1" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="realstate2005.exe" size="98304">
+      <assemblyIdentity name="realstate2005" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>fiHVmN7of/3e0aSwAFJdkui8iqU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=SDRAILWAYS\agarat" issuerKeyHash="c67d914a7ee77203872ce5b7b60721257298225a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>lBK8JVAm9ImctzEijAa2DLZODJs=</DigestValue></Reference></SignedInfo><SignatureValue>RrbQkc7ilxglI4VWtTi8kZxJQqQuoQsN7gPho6NYxcg2kAGZmsGPp7w99ayzki7IHwnDPuBahrUk2W1hL7tuGMR5PGRSl90d4TnzdzpSd22ZmRAh318vSfunoJIMYLRtfgZ7N/AMK8LqcebYt7E2z1LL5eQpb/YXcar+8Ixd0tE=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qxCfDNhm46NlW9Vv3iKjQZYaQWHvDT2O7zfRZ5mxqGJDBoBrxQzzCkPrkSfi560U1SJ2UjHSWn2UB7wbkI/2Q7KfAxoNxXEo3uTHcKhM3B8wpcVNs0LgDTmV/T/9e1gE/MhEEPcHThnfS0xqnr36GMJFpSNAIAND2nV3po8HDAc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9b0c4eb60cb6068c2231b79c89f4265025bc1294" Description="" Url=""><as:assemblyIdentity name="realstate2005.exe" version="1.0.0.7" publicKeyToken="5e12e2069a95eafe" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SDRAILWAYS\agarat</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>BwWOpqDBE6hN9gdG5fkzLkXuvxU=</DigestValue></Reference></SignedInfo><SignatureValue>AF1uM4vAriqujC1WGN4Te8RrSpFGw0lEOo5Fobt4N157uCGLyLyEAYND2+u5LvludQU+Ny+HVO7zrgsDYVijvEAUFBSk2h1qwsQIAinxhgZJVU2U2QXfSv/TFo8OhCrpjCWTsy29GvabH9a/8vnXXhtc41qP7QEOLrDq8Fcgq2k=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qxCfDNhm46NlW9Vv3iKjQZYaQWHvDT2O7zfRZ5mxqGJDBoBrxQzzCkPrkSfi560U1SJ2UjHSWn2UB7wbkI/2Q7KfAxoNxXEo3uTHcKhM3B8wpcVNs0LgDTmV/T/9e1gE/MhEEPcHThnfS0xqnr36GMJFpSNAIAND2nV3po8HDAc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAUKgAwIBAgIQ8oC11QY2uIxPIO9qU7pd+TAJBgUrDgMCHQUAMC0xKzApBgNVBAMeIgBTAEQAUgBBAEkATABXAEEAWQBTAFwAYQBnAGEAcgBhAHQwHhcNMTQwMzE3MDc0NjQ3WhcNMTUwMzE3MTM0NjQ3WjAtMSswKQYDVQQDHiIAUwBEAFIAQQBJAEwAVwBBAFkAUwBcAGEAZwBhAHIAYQB0MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrEJ8M2Gbjo2Vb1W/eIqNBlhpBYe8NPY7vN9FnmbGoYkMGgGvFDPMKQ+uRJ+LnrRTVInZSMdJafZQHvBuQj/ZDsp8DGg3FcSje5MdwqEzcHzClxU2zQuANOZX9P/17WAT8yEQQ9wdOGd9LTGqevfoYwkWlI0AgA0PadXemjwcMBwIDAQABMAkGBSsOAwIdBQADgYEATkvJNiw+xmZDLDIk8WupKa9Al8wGfPAM3K7AVgmOWC6I7IPdZ+uuiN7ktJriqQeizOdsSgdpgSgygjd5lS6Rs2S51cWu3Rt9EqStF86L2un+grB2PPY8zS4POfC2uG/zhtLcJ33j1PhVhGAvJf7bZP0RWqcTduLU9CIuL2kRR4U=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
